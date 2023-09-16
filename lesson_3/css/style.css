@@ -1,0 +1,7 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+mark {
+   background-color: #a9b2b2;
+}
