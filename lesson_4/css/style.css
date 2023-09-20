@@ -1,0 +1,66 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+/* {
+   color: blue;
+}*/
+/*--header------------------------------------------*/
+.nav .link {            
+   color: #8f2e40;
+}
+.nav a {                
+   color: #f49fb0;
+}
+
+/*.nav {
+   color: #D80032;
+}*/
+
+/*--main---------------------------------------------*/
+/*.title * {           
+   color: aliceblue;
+}*/
+.title {
+   color: #42d7dc;
+}
+.title span {
+   color: #78d76d;   
+}
+/*--main--text-------------------------------------*/
+.text > p {
+   color: #c4ce3c;
+}
+.title + .reg {              
+   color: #ff0000;
+}
+/*--dla media--------------------------------------*/
+.tema ~ p {
+   color: #E11299;
+}
+.tema .ceva {
+   color: #b4782b;
+}
+.tema > ul + p {
+   color: #eace1a;
+}
+/*--main-wersja------------------------------------*/
+.wersja + p {
+   color: #9400FF;
+}
+[class*="__conteiner"]{
+   color: #AED2FF;
+}
+/*--main-ciekawostki--------------------------------*/
+.page-link a {            
+   color: #F86F03;
+}
+.page-link {
+   color: #525FE1;
+}
+.page-link + p {              
+   color: aqua;
+}
+/*--footer------------------------------------------*/
+#znami {
+   color: #43e526;
+}
