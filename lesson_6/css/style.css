@@ -1,0 +1,187 @@
+/* Скидання стилів */
+@import url("fonts.css");
+@import url("reset.css");
+
+body {
+   font-family: 'Inter', sans-serif;
+   font-size: 18px;
+   color: #7D7D7D;
+}
+header {
+   max-width: 692px;
+   margin: 0 auto;
+   text-align: center;
+}
+header h3 {
+   padding: 30px;
+   font-size: 30px;
+   color: #D06B00;
+}
+.start {
+   max-width: 692px;
+   margin: 0 auto;
+   margin-bottom: 50px;
+}
+.img-one {
+   margin-bottom: 37px;
+}
+.title,
+.sub-title {
+   font-family: 'Poppins', sans-serif;
+}
+.title {
+   font-weight: 600;
+   font-size: 30px;
+   color: #37393F;
+   line-height: 1.27; /* 38.10/30 */
+   margin-bottom: 3px;
+}
+.text {
+   font-weight: 400;
+   line-height: 1.46; /* 26.31/18 */
+}
+.text-title {
+   margin-bottom: 42px;
+}
+.sub-title {
+   color: #6B77E5;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 1.27; /* 25.40/20 */
+   margin-bottom: 12px;
+}
+.text-sub-title {
+   margin-bottom: 40px;
+}
+/*------biock-1-------*/
+.block-benefits {
+  font-size: 0;
+}
+.benefits-image {
+   max-width: 331px;
+   display: inline-block;
+   vertical-align: top;  
+   margin-right: 29px;
+}
+.benefits-image img {
+   width: 100%;
+}
+.benefits-text {
+   max-width: 332px;
+   display: inline-block;
+   vertical-align: top;
+}
+.title-benefits {
+   color: #37393F;
+   font-size: 25px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   line-height: 1.27; /* 31.75/25 */
+   margin-bottom: 15px;    
+}
+.sub-title-benefits {
+   color: #40DDB6;
+   font-size: 20px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   line-height: 1.27; /* 25.40/20 */
+   margin-bottom: 21px;
+}
+.list-benefits {
+   font-family: "Inter", sans-serif;
+   font-weight: 400;
+}
+.benefits-item {
+   color: #7D7D7D;
+   font-size: 18px;
+   margin-bottom: 30px;
+}
+/*------biock-2-------*/
+.block-dwa {
+   max-width: 1603px;
+   background-color: #fff9f4;
+}
+.jewelry {
+   max-width: 1169px;
+   margin: 0 auto;
+   font-size: 0;
+}
+.products {
+   max-width: 563px;
+   margin-right: 38px;
+   display: inline-block;
+}
+.jewelry-label {
+   color: #D06B00;
+   font-size: 28px;
+   font-family: "Inter", sans-serif;
+   font-weight: 400;
+   margin-bottom: 13px;
+   padding-top: 20px;
+}
+.jewelry-title {
+   color: #0E333D;
+   font-size: 59px;
+   font-family: "DM Serif", sans-serif;
+   font-weight: 400;
+   line-height: 1.47; /* 86.44/59 */
+   margin-bottom: 25px;
+}
+.products-text {
+   color: #474747;
+   font-size: 20px;
+   font-family: Inter;
+   font-weight: 400;
+   line-height: 1.8; /* 36/20 */
+   margin-bottom: 21px;
+}
+.jewelry-img {
+   max-width: 568px;
+   display: inline-block;
+   vertical-align: top;
+}
+.jewelry-img img+img {
+   margin-left: 22px; /*должно быть 22px*/
+}
+/*------biock-3-------*/
+/*------display: inline-block;-------*/
+.opera {
+   max-width: 900px;
+   margin: 0 auto;
+   font-size: 0;
+}
+.opera-title h2 {
+   font-family: "DM Sans", sans-serif;
+   font-weight: 700;
+   font-size: 30px;
+   color: #1212b1;
+   text-align: center;
+   margin: 30px 0;
+}
+.opera-title-img {
+   max-width: 300px;
+   margin-right: 20px;
+   margin-bottom: 50px;
+}
+.opera-title p {
+   max-width: 500px;
+   font-family: "DM Sans", sans-serif;
+   font-weight: 400;
+   font-size: 20px;
+   display: inline-block;
+   vertical-align: middle;
+   line-height: 1.3;
+   text-align: justify;
+}
+/*------display: block;-------*/
+.foto img{
+   max-width: 300px;
+   display: block;
+   margin-bottom: 30px;
+}
+.footer-all {
+   max-width: 1171px;
+   margin: 0 auto;
+   text-align: center;
+   padding: 30px;
+}
