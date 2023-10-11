@@ -1,0 +1,462 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+
+/*--block-1--*/
+
+.block-one-one {
+   max-width: 1240px;
+   margin: 0 auto;
+   background-color: #f7f7f7;
+   padding-bottom: 40px;
+   background-image: url("../img/pattern.png");
+   background-attachment: fixed;
+}
+.lesson {
+   
+   font-family: "Inter", sans-serif;
+   font-size: 60px;
+   font-weight: 800;
+   color: #c92140;
+   padding: 60px;
+   text-align: center;
+   text-transform: uppercase;
+}
+/*------block-1--------*/
+.block-one-one h5 {
+   font-size: 30px;
+   color: rgb(225, 30, 30);
+   padding: 40px;
+   text-decoration: underline;
+}
+.block-one {
+   max-width: 400px;
+   background-color: #8bbdbf;
+   padding: 30px;
+   font-size: 25px;
+   margin: 40px;
+}
+.block-two {
+   width: 400px;
+   color: #ffffff;
+   font-size: 30px;
+   padding: 20px;
+   margin: 40px;
+   background-image: url("../img/strawberry.png");
+}
+.block-two-two {
+   background-color: #dbdbdbd2;
+   height: 1000px;
+   font-size: 25px;
+   background-image: url("../img/saturn.jpg");
+   background-repeat: no-repeat;
+   background-position: 50%;
+   padding: 20px;
+}
+.block-three {
+   color: #ffffff;
+   background-image: url("../img/eggplant.png");
+   font-size: 25px;
+   padding: 30px;
+}
+.block-four {
+   max-width: 400px;
+   padding: 20px;
+   background-image: linear-gradient(135deg, rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 84%);
+}
+.block-five {
+   background: white;
+   text-align: center;
+   line-height: 1.6;
+   font-size: 40px;
+   font-weight: 700;
+   background-image: linear-gradient(90deg, #361a3e88 50%, transparent 0),
+     linear-gradient(#361a3e58 50%, transparent 0);
+   background-size: 30px 30px;
+   background-repeat: repeat;
+}
+.block-six {
+   width: 700px;
+   background-image: url("../img/ananas.png");
+   background-size: 100px;
+   background-repeat: no-repeat;
+}
+.block-six p {
+   padding-left: 120px;   font-size: 25px;
+}
+.block-six {
+   margin: 20px;
+}
+.block-seven {              
+   color: #842929;
+   background-image: url("../img/katherine.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   margin: 30px;
+   text-align: justify;
+   font-size: 20px;
+   line-height: 1.4;  
+}
+.block-seven p {
+   padding: 20px;
+}
+.block-eight {
+   color: #ffffff;
+   background: #8c8e8e9d url("../img/star.jpg") 0 0 / cover no-repeat;
+}
+.block-eight p {
+   margin: 20px;
+   padding-bottom: 30px;
+   line-height: 1.4;
+   text-align: center;
+}
+.block-nine {
+   background: 
+   url("../img/saturn.jpg") 0 0 / 200px no-repeat,
+   url("../img/star.jpg") right bottom / 300px no-repeat,
+   url("../img/sun.jpg") center / 100px no-repeat fixed,
+   linear-gradient(90deg, #833ab4 0%, #4d7425 50%, #fcb045 100%);
+}
+.block-nine p {
+   font-size: 20px;
+   text-align: center;
+   line-height: 1.4;
+   padding: 30px;
+   margin-bottom: 30px;
+}
+
+/*------BLOCK-2--------*/
+
+/*------section 01--------*/
+
+.busines {
+   max-width: 673px;
+   margin: 0 auto;
+   padding-top: 60px;
+   padding-bottom: 100px;
+}
+.busines-sub-title {
+   color: #37393F;
+   font-size: 18px;
+   font-family: "Inter", sans-serif;
+   font-weight: 500;
+   background: url("../img/box.png") 0 5px no-repeat;
+   padding-left: 18px;
+   line-height: 1.22; /* 22/18 */
+   margin-bottom: 16px;
+}
+.busines-title {            
+   max-width: 414px;
+}
+.busines-title h2 {
+   color: #37393F;
+   font-size: 40px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 700;
+   line-height: 1.21; /* 48.40/40 */
+   margin-bottom: 20px;
+}
+.busines-text p {
+   font-size: 18px;
+   font-family: "Inter", sans-serif;
+   font-weight: 400;
+   line-height: 1.46; /* 26.31/18 */
+   margin-bottom: 15px;
+}
+.busines-text {
+   margin-bottom: 20px;
+}
+/*------2------*/
+.list-item {
+   color: #37393F;
+   font-size: 20px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   line-height: 1.65; /* 33/20 */
+   margin-bottom: 23px;
+   background: url("../img/vector.png") 0 3px no-repeat;
+   padding-left: 35px;
+}
+.components-list {
+   margin-bottom: 43px;
+}
+.leverage {
+   font-size: 0;
+   margin-bottom: 99px;
+}
+.leverage-blok {
+   border: 1px solid #7D7D7D;
+   padding: 31px 32px 32px;
+   max-width: 295px;
+   display: inline-block;
+   vertical-align: top;
+}
+.leverage-blok h4 {
+   margin-bottom: 3px;
+}
+.leverage-blok-one {
+   background: url("../img/icon1.png") no-repeat;
+   padding-left: 59px;
+   max-width: 231px;
+   max-height: 77px;
+}
+.one {
+   margin-right: 21px;
+}
+.leverage-blok-title {
+   color: #37393F;
+   font-size: 20px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 600;
+   line-height: 1.5; /* 30/20 */
+}
+.leverage-blok-text {
+   color: #7D7D7D;
+   font-size: 16px;
+   font-family: "Inter", sans-serif;
+   font-weight: 400;
+   line-height: 1.35; /* 21.63/16 */
+}
+.leverage-blok-two {
+   background: url("../img/icon2.png") no-repeat;
+   padding-left: 59px;
+}
+
+.button a {
+   display: block;
+   max-width: 184px;
+   max-height: 85px;
+   background-color: #6B77E5;
+   color: white;
+   font-size: 18px;
+   font-family: "Inter", sans-serif;
+   font-weight: 600;
+   padding: 21px 27px 22px;
+}
+/*------section 02------*/
+.latest-client {
+   max-width: 1230px;
+   margin: 0 auto;
+   padding-top: 70px;
+}
+.latest-title {
+   text-align: center;
+   margin-bottom: 99px;
+}
+.latest-title h5{
+   color: #37393F;
+   font-size: 18px;
+   font-family: "Inter", sans-serif;
+   font-weight: 500;
+   margin-bottom: 14px;
+   display: inline-block;
+   margin-left: 6px;
+   background: url("../img/box.png") 0 3px / 12px 12px no-repeat;
+   padding-left: 18px;
+}
+.latest-title h2 {
+   color: #37393F;
+   font-size: 40px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 700;
+   line-height: 1.21; /* 48.40/40 */
+   margin-bottom: 14px;
+}
+.latest-title-text p {
+   color: #7D7D7D;
+   font-size: 18px;
+   font-family: "Inter", sans-serif;
+   font-weight: 400;
+   line-height: 1.46; /* 26.31/18 */
+}
+/*-------ФОТО-------*/
+.latest-image,
+.next-image {
+   width: 384px;
+   min-height: 582px;
+   display: inline-block;
+   vertical-align: top;
+}
+.img-one,
+.img-two,
+.img-four,
+.img-five {
+   margin-right: 34px;
+}
+.latest-im,
+.next-image {
+   width: 384px;
+   min-height: 501px;
+   margin-bottom: 24px;
+}
+.img-one .latest-im {
+   background: url("../img/monitor.png") center / cover no-repeat;
+}
+.img-two .latest-im {
+   background: url("../img/man.png") center / cover no-repeat;
+}
+.img-three .latest-im {
+   background: url("../img/telefon.png") center / cover no-repeat;
+}
+.img-four .latest-im {
+   background: url("../img/blonde.png") center / cover no-repeat;
+} 
+.img-five .latest-im {
+   background: url("../img/drawing.png") center / cover no-repeat;
+}
+.img-six .latest-im {
+   background: url("../img/coffee.png") center / cover no-repeat;
+}
+.latest-image-text h3 {
+   color: #37393F;
+   font-size: 20px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   line-height: 1.27; /* 25.40/20 */
+   margin-bottom: 10px;
+}
+.latest-date {
+   font-size: 14px;
+   font-family: "Inter", sans-serif;
+   font-weight: 400;
+   line-height: 1.46; /* 20.47/14 */
+   background: url("../img/icon3.png") 0 -1px / 22px 22px no-repeat;
+   padding-left: 26px;
+   min-height: 22px;
+}
+.group-img-one {
+   margin-bottom: 58px;
+}
+.group-img-two {
+   margin-bottom: 99px;
+}
+/*------section 03------*/
+.india {
+   max-width: 1219px;
+   margin: 0 auto;
+}
+.hatch {
+   width: 6px;
+   height: 28px;
+   background-color: #8A33FD;
+   border-radius: 5px;
+   display: inline-block;
+   vertical-align: top;
+}
+.india h2 {
+   color: #3C4242;
+   font-size: 28px;
+   font-family: "Core Sans C", sans-serif;
+   font-weight: 600;
+   line-height: 1.2; /* 33.50/28 */
+   letter-spacing: 0.56px;
+   margin-bottom: 30px;
+   display: inline-block;
+   vertical-align: top;
+   padding-left: 15px;
+}
+.india-content-one h3,
+.india-content-two h3 {
+   color: #807D7E;
+   font-size: 20px;
+   font-family: "Core Sans C", sans-serif;
+   font-weight: 600;
+   line-height: 1.68; /* 33.50/20 */
+   letter-spacing: 0.40px;
+}
+.india-content-one p,
+.india-content-two p {
+   color: #807D7E;
+   font-size: 20px;
+   font-family: "Causten", sans-serif;
+   font-weight: 400;
+   line-height: 1.68; /* 33.50/20 */
+   letter-spacing: 0.40px;
+}
+.india-content-one h3,
+.india-content-two h3,
+.india-content-one .p-two {
+   margin-bottom: 25px;
+}
+.india-content-one .p-one,
+.india-content-two .p-one,
+.india-content-two .p-two-two {
+   margin-bottom: 20px;
+}
+.india-content-one,
+.india-content-two {
+   padding-left: 21px;
+}
+.india-content-link a {
+   color: #807D7E;
+   font-size: 20px;
+   font-family: "Core Sans C", sans-serif;
+   font-weight: 600;
+   line-height: 33.50px;
+   letter-spacing: 0.40px;
+}
+/*------section 04------*/
+.evreday-fashion {
+   max-width: 1440px;
+   margin: 0 auto;
+   font-size: 0;
+   padding: 100px 0;
+}
+.evreday {
+   max-width: 1240px;
+   margin: 0 auto;
+}
+.evreday-title {
+   background-image: url("../img/flowers.png");
+   background-repeat: no-repeat;
+   width: 614px;
+   min-height: 639px;
+   display: inline-block;
+   vertical-align: top;
+   padding: 183px 74px 174px 74px;
+}
+.evreday-image {
+   width: 626px;
+   min-height: 639px;
+   background-image: url("../img/friends.png");
+   background-repeat: no-repeat;
+   display: inline-block;
+   vertical-align: top;
+}
+.evreday-title h3 {
+   max-width: 466px;
+   color: #ffffff;
+   font-size: 34px;
+   font-family: "Core Sans C", sans-serif;
+   font-weight: 800;
+   line-height: 1.47; /* 50/34 */
+   margin-bottom: 30px;
+}
+.evreday-title p {
+   color: white;
+   font-size: 20px;
+   font-family: "Causten", sans-serif;
+   font-weight: 300;
+   line-height: 1.2;
+   letter-spacing: 1px;
+   margin-bottom: 60px;
+}
+.evreday-title a {
+   display: block;
+   max-width: 168px;
+   border-radius: 7px;
+   padding: 12px 44px;
+   background-color: #ffffff;
+   color: #3C4242;
+   font-size: 18px;
+   font-family: "Causten", sans-serif;
+   font-weight: 600;
+   line-height: 1.22; /* 22/18 */
+}
+.footer-all h3{
+   background-image: url("../img/pattern.png");
+   padding: 100px;
+   text-align: center;
+   font-size: 60px;
+}
