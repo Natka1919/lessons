@@ -1,0 +1,215 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+/*--block-1--*/
+body {
+   font-family: "Inter", sans-serif;
+   padding: 30px;
+
+}
+main {
+   border: 1px solid rgb(207, 78, 31);
+}
+.lesson {
+   font-size: 30px;
+   color: #1b8066;
+   padding: 120px;
+   text-align: center;
+   text-transform: uppercase;
+}
+/*---------ПСЕВДОКЛАССЫ----------*/
+/*--1------  ----*/
+.link1,
+.link2 {
+
+   font-size: 30px;
+   color: #781c96;
+   border: 1px solid #4169e1;
+}
+.link1:hover{
+   color: #ff0000;
+   text-decoration: underline;
+}
+
+main:hover .link2 {
+   text-transform: uppercase;
+   color: deepskyblue;
+}
+ /*--2--------------*/
+
+ .block {
+   background-color: #000;
+   color: #9fa19f;
+   font-size: 20px;
+   border: 5px solid #9fa19f;
+   border-radius: 30px;
+   padding: 15px;
+   max-width: 500px;
+   margin:  0 auto;
+   margin-bottom: 70px;
+ }
+ .image {
+   display: none;
+ }
+.block:hover {
+   border: 5px solid #fa3617;
+}
+.block:hover .link {
+   color: #fa3617;
+}
+.block:hover .image {
+   display: block;
+}
+/*--3--------------*/
+.card {
+   font-family: "Inter", sans-serif;
+   font-weight: 300;
+   border: 2px solid #ff8c00;
+   min-width: 300px;
+   text-align: center;
+   display: inline-block;
+   vertical-align: top;
+   margin-bottom: 70px;
+}
+.card-title {
+   font-size: 30px;
+   color: #474545;
+}
+.card-title-translation {
+   font-size: 30px;
+   color: #ff8c00;
+   display: none;
+}
+.card:hover .card-title-translation {
+   display: block;
+   font-weight: 700;
+}
+.moon {
+   max-width: 300px;
+}
+
+/*--4--------------*/
+.play {
+   font-size: 0;
+   width: 700px;
+   outline: 3px solid red;
+   margin-bottom: 60px;
+}
+.div1 {
+      width: 20px;
+      height: 20px;
+      background-color: #dc7b6c;
+      padding: 10px;
+      display: inline-block;
+      vertical-align: top;
+}
+.div2 {
+   width: 660px;
+   height: 20px;
+   background-color: #09dc5a;
+   padding: 10px;
+   display: inline-block;
+   vertical-align: top;
+   visibility: hidden;
+   opacity: 0;
+}   
+.div1:hover .div2 {
+   transition: 3s;
+   visibility: visible;
+   opacity: 1;
+}
+.div3 {
+   width: 20px;
+   height: 100px;
+   background-color: #bcdc6c;
+   margin-left: 400p;
+   display: inline-block;
+   vertical-align: top;
+
+}
+
+.div4 {
+   width: 700px;
+   height: 20px;
+   background-color: #7d6cdc;
+   display: inline-block;
+   vertical-align: top;
+}
+.div5 {
+   width: 20px;
+   height: 100px;
+   background-color: #dc936c;
+   margin-left: 400p;
+
+}
+.div6 {
+   width: 680px;
+   height: 20px;
+   background-color: #b909dc;
+   padding: 10px;
+   display: inline-block;
+   vertical-align: top;
+   text-align: cente;
+}
+.div7 {
+   width: 20px;
+   height: 100px;
+   background-color: #bcdc6c;
+   margin-left: 400p;
+   display: inline-block;
+   vertical-align: top;
+}
+
+
+/*--5--------------*/
+.square {
+   max-width: 100px;
+   min-height: 100px;
+   background-color: #781c96;
+   cursor: pointer;
+   margin-bottom: 50px;
+}
+.square:hover {
+   margin-top: 100px;
+}
+/*--6--------------*/ 
+
+.caffe {
+   font-size: 30px;
+   color: #e12b0f;
+}
+.caffe a {
+   display: block;
+}
+.caffe-one:visited {
+   color: #fdf668;
+}
+.caffe-one:active {
+   color: #1dff37;
+}
+.caffe-two:visited {
+   color: #47e0ff;
+}
+.caffe-two:active {
+   color: #781c96;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-all h3{
+   padding: 70px;
+   text-align: center;
+   font-size: 60px;
+}
