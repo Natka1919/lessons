@@ -1,0 +1,124 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+
+/*--block-1--*/
+.block-one-one {
+   max-width: 1240px;
+   margin: 0 auto;
+   background-color: #f7f7f7;
+   padding-bottom: 40px;
+   background-image: url("../img/pattern.png");
+   background-attachment: fixed;
+}
+.lesson {
+   font-family: "Inter", sans-serif;
+   font-size: 60px;
+   font-weight: 800;
+   color: #c92140;
+   padding: 60px;
+   text-align: center;
+   text-transform: uppercase;
+}
+/*------block-1--------*/
+/*------1--------*/
+.consulting {
+   background-color: #fbf9f6;
+   max-width: 692px;
+   margin: 0 auto;
+}
+.consulting-text h2 {
+   color: #37393F;
+   font-size: 30px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   line-height: 1.27; /* 38.10/30 */
+   margin-bottom: 12px;
+}
+.consulting-text p {
+   color: #7D7D7D;
+   font-size: 18px;
+   font-family: "Inter", sans-serif;
+   line-height: 1.46; /* 26.31/18 */
+}
+.consulting-text h5 {
+   color: #6B77E5;
+   font-size: 20px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   line-height: 1.27; /* 25.40/20 */
+   margin-bottom: 12px;
+}
+.consulting-text p:not(:last-of-type) {
+   margin-bottom: 42px;
+}
+.consulting-text {
+   margin-bottom: 83px;
+}
+/*------2--------*/
+
+.benefits-imege {
+   width: 330px;
+   height: 265px;
+   background: url(../img/table.jpg) center / cover no-repeat;
+   margin-right: 16px;
+   display: inline-block;
+   vertical-align: top ;
+}
+.benefits-text {
+   width: 332px;
+   font-size: 0;
+   display: inline-block;
+   vertical-align: top;
+}
+.benefits-text h4 {
+   color: #37393F;
+   font-size: 25px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   line-height: 1.27; /* 31.75/25 */
+   margin-bottom: 15px;
+}
+.benefits-text h5 {
+   color: #40DDB6;
+   font-size: 20px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   line-height: 1.27; /* 25.40/20 */
+   margin-bottom: 21px;
+}
+.benefits-item li {
+   color: #7D7D7D;
+   font-size: 18px;
+   font-family: "Inter", sans-serif;
+
+}
+.benefits-item:not(:last-of-type) {
+   margin-bottom: 30px;
+}
+.benefits-item::before {
+   content: "";
+   width: 28px;
+   height: 28px;
+   background: url(../img/vector.png) 0 0 no-repeat;
+   display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-all h3{
+   background-image: url("../img/pattern.png");
+   padding: 100px;
+   text-align: center;
+   font-size: 60px;
+}
