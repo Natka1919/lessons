@@ -1,0 +1,116 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+
+/*--block-1--*/
+.block-one-one {
+   max-width: 1240px;
+   margin: 0 auto;
+   background-color: #f7f7f7;
+   padding-bottom: 40px;
+   background-image: url("../img/pattern.png");
+   background-attachment: fixed;
+}
+.lesson {
+   font-family: "Inter", sans-serif;
+   font-size: 60px;
+   font-weight: 800;
+   color: #c92140;
+   padding: 60px;
+   text-align: center;
+   text-transform: uppercase;
+}
+/*------block-4--------*/
+/*------1--------*/
+.jewels {
+   background-color: antiquewhite;
+   max-width: 1214px;
+   height: 674px;
+   margin: 0 auto;
+   font-size: 0;
+}
+.jewel-title {
+   display: inline-block;
+   vertical-align: top;
+   max-width: 482px;
+}
+.jewel-title h2 {
+   padding-top: 150px;
+   font-size: 60px;
+   font-family: "Cormorant Infant", serif;
+   font-weight: 700;
+   line-height: 1.15; /* 69/60 */
+}
+.jewel-title h2::after {
+   content: "";
+   width: 304px;
+   border-bottom: 3px solid #78473B;
+   display: block;
+   margin-top: 13px;
+}
+/*------2--------*/
+/*------1-img--------*/
+.jewel-title,
+.jewels-img,
+.jewels-imege,
+.block2 {
+   display: inline-block;
+   vertical-align: top;
+}
+.jewels-imege {
+   max-width: 334px;
+   height: 381px;
+   border: 2px solid #000000;
+}
+.picture {
+   max-width: 334px;
+   height: 381px;
+   width: 100%;
+   margin: 10px 0 25px 10px;
+}
+.picture:hover {
+   opacity: 0.4;
+}
+.jewels-imege h5 {
+   font-size: 24px;
+   font-family: "Cormorant Infant", serif;
+   font-weight: 700;
+   line-height: 1.4; /* 33.60/24 */
+}
+.jewels-imege h5:hover {
+   color: #26b826;
+}
+.block2 h3 {
+   max-width: 339px;
+   font-size: 46px;
+   font-family: "Cormorant Infant", serif;
+   font-weight: 700;
+   line-height: 1.13; /* 51.98/46 */
+}
+.block1 {
+   margin-right: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-all h3{
+   background-image: url("../img/pattern.png");
+   padding: 100px;
+   text-align: center;
+   font-size: 60px;
+}
