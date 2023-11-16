@@ -1,0 +1,68 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+body {
+   background: linear-gradient(to bottom, rgba(6,7,10,1) 1%,rgba(6,7,10,1) 1%,rgba(6,7,10,1) 1%,rgba(6,7,10,1) 38%,rgba(39,50,56,1) 69%,rgba(39,50,56,1) 81%,rgba(39,50,56,1) 86%,rgba(39,50,56,1) 91%,rgba(39,50,56,1) 94%,rgba(39,50,56,1) 98%,rgba(255,255,255,1) 100%); 
+   color: #ffffff;
+}
+.container {
+   max-width: 1220px;
+   margin: 0 auto;
+
+}
+.container__title {
+   padding-top: 100px;
+   font-size: 60px;
+   font-weight: 400;
+   font-family: "Noto Serif", serif;
+   text-align: center;
+}
+.container__subtitle {
+   padding-top: 10px;
+   font-size: 30px;
+   font-family: "Noto Serif", serif;
+   font-weight: 300;
+   text-align: center;
+   padding-left: 240px;
+}
+.container__tema {
+   padding-top: 20px;
+   font-size: 30px;
+   font-family: "Noto Serif", serif;
+   font-weight: 300;
+   text-align: center;
+   padding-top: 200px;
+}
+
+
+
+
+
+
+.footer__title {
+   font-size: 60px;
+   font-weight: 300;
+   font-family: "Noto Serif", serif;
+   text-align: center;
+   padding-top: 100px;
+   margin-bottom: 100px;
+}
+.footer__line::after {
+   content: "";
+	display: block;
+	width: 400px;
+	height: 5px;
+	background-color: #ececec;
+   border-radius: 10px;
+   margin: 0 auto;
+}
+
+
+/* .jewellery-content h2::after {
+	content: "";
+	display: block;
+	width: 291px;
+	height: 3px;
+	background-color: #78473B;
+	margin-top: 10px;
+} */
