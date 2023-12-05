@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Lesson 13</title>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+   </head>
+   <body>
+      <div class="wrapper">
+         <header class="header">
+            Lesson 13
+         </header>
+         <main class="main">
+            <div class="container">
+               <!-- 1 translate-->
+               <div class="container__block box">
+                  <div class="box__item-1-1 item item--yellowgreen">1-transform: translate(20px, 20px) при hover</div>
+               </div>
+               <div class="container__block box">
+                  <div class="box__item-1-2 item item--yellowgreen">1-transform: translateX при hover</div>
+               </div>
+               <div class="container__block box">
+                  <div class="box__item-1-3 item item--yellowgreen">1-transform: translateY при hover</div>
+               </div>
+               <div class="container__block box">
+                  <div class="box__item-1-4 item item--yellowgreen">1-transform: translate(100%, 0%) при hover</div>
+               </div>
+               <div class="container__block box container__block--circle">
+                  <div class="box__item-1-5 item item--yellowgreen">1-transform: translateX(40px)</div>
+               </div>
+               <!-- scale -->
+               <div class="container__block box">
+                  <div class="box__item-2-1 item item--violet">2-transform: scale(0.5) при hover</div>
+               </div>
+               <div class="container__block box">
+                  <div class="box__item-2-2 item item--violet">2-transform: scale(1.5) при hover</div>
+               </div>
+               <div class="container__block box">
+                  <div class="box__item-2-3 item item--violet">2-transform: scaleX(1.5) при hover</div>
+               </div>
+               <div class="container__block box">
+                  <div class="box__item-2-4 item item--violet">2-transform: scaleY(1.5) при hover</div>
+               </div>
+               <div class="container__block box">
+                  <div class="box__item-2-5 item item--violet">2-transform: scale(1.5, 0.4)при hover</div>
+               </div>
+               <div class="container__block box">
+                  <div class="box__item-2-6 item item--violet">2-transform: scale(-1,1) при hover</div>
+               </div>
+               <div class="container__block box">
+                  <div class="box__item-2-7 item item--violet">2-transform: scale(0.5) при hover</div>
+               </div>
+               <!-- 2 car scale -->
+               <div class="container__car auto">
+                  <h3>transform: scaleX(-1) scaleY(-1)</h3>
+                  <img class="auto__img" src="img/car.webp" alt="car">
+                  <img class="auto__img scale" src="img/car.webp" alt="car">
+                  <img class="auto__img scaley" src="img/car.webp" alt="car">
+               </div>
+               <!-- rotate -->
+               <div class="container__block box">
+                  <div class="box__item-3-1 item item--blue">3-transform: rotate(20deg) при hover</div>
+               </div>
+               <div class="container__block box">
+                  <div class="box__item-3-2 item item--blue">3-transform: rotate(20deg)</div>
+               </div>
+               <div class="container__block box">
+                  <div class="box__item-3-3 item item--blue">3-transform: rotate(-60deg) при hover</div>
+               </div>
+               <!-- skew -->
+               <div class="container__block box">
+                  <div class="box__item-4-1 item item--pink">4-transform: skew(10deg, 20deg) при hover</div>
+               </div>
+               <div class="container__block box">
+                  <div class="box__item-4-2 item item--pink">4-transform: skew(-30deg) при hover</div>
+               </div>
+               <!-- ровный текст при skew -->
+               <div class="container__block box">
+                  <div class="box__item-4-3">
+                     <p>4-transform: skew(-20deg)</p>
+                  </div>
+               </div>
+               <!-- skew в  nav -->
+               <div class="nav">
+                  <ul>
+                     <li><a href="#">Пирамида Хеопса / skewX(-20deg)</a></li>
+                     <li><a href="#">Висячие сады Семирамиды</a></li>
+                     <li><a href="#">Статуя Зевса в Олимпии</a></li>
+                     <li><a href="#">Храм Артемиды в Эфесе</a></li>
+                     <li><a href="#">Мавзолей в Галикарнасе</a></li>
+                     <li><a href="#">Колосс Родосский</a></li>
+                     <li><a href="#">Александрийский маяк</a></li>
+                  </ul>
+               </div>
+               <!-- transform-origin -->
+               <div class="container__block box">
+                  <div class="box__item-5-1 item item--orange">5-transform-origin: 0 0 при hover</div>
+               </div>
+               <div class="container__block box">
+                  <div class="box__item-5-2 item item--orange">5-transform-origin: 110% 110% при hover</div>
+               </div>
+               <!-- 3D -->
+               <div class="container__block component">
+                  <div class="component__item-6-1 item item--cyan">3D-perspective-origin- transform: rotate3d(0, 20, 0, 20deg)</div>
+               </div>
+               <div class="container__block component">
+                  <div class="component__item-6-2 item item--cyan">3D-perspective-origin- transform: rotate3d(50, 0, 0, 30deg)</div>
+               </div>
+               <!-- transfotm-styl -->
+               <div class="container__block component3d">
+                  <div class="component3d__item-6-3 item item--cyan">transform-style: preserve-3d</div>
+               </div>
+               <!-- карточка с переворортом -->
+               <div class="flip">
+                  <div class="flip__body">
+                     <div class="flip__back">car</div>
+                     <div class="flip__front">машина</div>
+                  </div>
+               </div>
+            </div>
+            <!-- МАШИНКА -->
+            <div class="chapter">
+               <div class="car">
+                  <!-- верх машины -->
+                  <div class="car__top top">
+                     <div class="top__car"></div>
+                  </div>
+                  <!-- низ машины -->
+                  <div class="car__bottom"></div>
+                  <!-- перегородка -->
+                  <div class="partition"></div>
+                  <!-- ручка -->
+                  <div class="car__handle "></div>
+                  <!-- колесо -->
+                  <div class="wheel"></div>
+                  <div class="light"></div>
+                  <div class="light-red"></div>
+               </div>
+            </div>
+         </main>
+         <footer class="footer">
+            <div class="footer__imege">
+               <img src="img/next-level.png" alt="next-level">
+            </div>
+         </footer>
+      </div>
+   </body>
+</html>

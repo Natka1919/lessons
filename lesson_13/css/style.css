@@ -1,0 +1,439 @@
+@import url("fonts.css");
+@import url("reset.css");
+body {
+   background: url(../img/pattern.jpg) center fixed;
+   font-family: "Inter", sans-serif;
+}
+.wrapper {
+   min-height: 100%;
+   overflow: clip;
+}
+.header {
+   padding: 30px;
+   font-size: 30px;
+   font-weight: 600;
+   text-align: center;
+}
+/* 1 */
+.container {
+   max-width: 1270px;
+   margin: 0 auto;
+   background-color: #696969;
+   margin-bottom: 50px;
+}
+.box,
+.component,
+.component3d {
+   width: 200px;
+   height: 200px;
+   background-color: #e9e9e952; 
+   display: inline-block;
+   vertical-align: top;
+}
+.container__block,
+.flip {
+   margin: 50px;
+}
+.item {
+   color: #ffffff;
+   font-size: 20px;
+   width: 200px;
+   height: 200px;
+   /* background-color: #381a24; */
+   text-align: center;
+   padding: 20px 10px;
+}
+.item--yellowgreen {
+   background-color: #86b32e;
+}
+.container__block:hover .box__item-1-1 {
+   transform: translate(20px, 20px);
+}
+.container__block:hover .box__item-1-2 {
+   transform: translateX(40px);
+}
+.container__block:hover .box__item-1-3 {
+   transform: translateY(40px);
+}
+.container__block:hover .box__item-1-4 {
+   transform: translate(100%, 0%);
+}
+.container__block--circle {
+   border-radius: 50%;
+   background-color: #ffffff;
+}
+.box__item-1-5 {
+   border-radius: 50%;
+   transform: translateX(40px);
+   background-color: #6f6d6d;
+}
+/* scale */
+.item--violet {
+   background-color: #9b429baa;
+}
+.container__block:hover .box__item-2-1 {
+   transform: scale(0.5);
+}
+.container__block:hover .box__item-2-2 {
+   transform: scale(1.5);
+}
+.container__block:hover .box__item-2-3 {
+   transform: scaleX(1.5);
+}
+.container__block:hover .box__item-2-4 {
+   transform: scaleY(1.5);
+}
+
+.container__block:hover .box__item-2-5 {
+   transform: scale(1.5, 0.4);
+}
+.container__block:hover .box__item-2-6 {
+   transform: scale(-1,1);
+   background-color: #592459;
+}
+.box__item-2-7 {
+   transform: scale(0.05);
+   transition: transform 0.7s ease;
+}
+.container__block:hover .box__item-2-7 {
+   transform: scale(1);
+   transition: transform 0.7s ease;
+}
+/* 2 car scale */
+.container__car {
+   margin: 0 auto;
+   width: 990px;
+   font-size: 0;
+}
+.container__car h3 {
+   text-align: center;
+   font-size: 30px;
+   margin-bottom: 30px;
+   color: #ffffff;
+}
+.auto__img {
+   width: 300px;
+   height: 300px;
+   display: inline-block;
+   border-radius: 50%;
+}
+.auto__img:not(:last-child) {
+   margin-right: 30px;
+}
+.scale {
+   transform: scaleX(-1);
+}
+.scaley {
+   transform: scaleY(-1);
+}
+/* rotate */
+.item--blue {
+   background-color: #4169e1f0;
+}
+.container__block:hover .box__item-3-1 {
+   transform: rotate(20deg);
+}
+.box__item-3-2 {
+   transform: rotate(20deg);
+}
+.container__block:hover .box__item-3-3 {
+   transform: rotate(-60deg);
+}
+/* skew */
+.item--pink {
+   background-color: #ff1493;
+}
+.container__block:hover .box__item-4-1 {
+   transform: skew(10deg, 10deg);
+}
+.container__block:hover .box__item-4-2 {
+   transform: skew(-30deg);
+}
+ /* ровный текст при skew */
+.box__item-4-3 {
+   width: 200px;
+   height: 200px;
+   position: relative;
+}
+.box__item-4-3::before {
+   content: "";
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   background-color: #ff1493;
+   position: absolute;
+   transform: skew(-20deg);
+}
+.container__block p {
+   position: relative;
+   color: #ffffff;
+   padding: 70px 20px;
+   font-size: 20px;
+   z-index: 1;
+}
+/* skew в  nav */
+.nav {
+   max-width: 600px;
+}
+.nav li {
+   max-width: 400px;
+   font-size: 20px;
+   padding: 20px;
+   background-color: #fc63b5;
+   margin-left: 30px;
+   transform: skewX(-20deg);
+}
+.nav li:not(:last-child) {
+   margin-bottom: 10px;
+}
+.nav li a {
+   display: block;
+   transform: skewX(20deg);
+   text-decoration: underline;
+}
+.nav li:hover  {
+   background-color: #ff1493;
+   color: #ffffff;
+}
+/* transform-origin */
+.item--orange {
+   background-color: #ff8c00;
+}
+.container__block:hover .box__item-5-1 {
+   transform-origin: 0 0;
+   transform: rotate(-10deg);
+}
+.container__block:hover .box__item-5-2 {
+   transform-origin: 110% 110%;
+   transform: rotate(20deg);
+}
+/* 3D */
+.item--cyan {
+   background-color: #00ffff;
+   color: #333232;
+}
+.component {
+   perspective: 100px;
+   perspective-origin: left;
+}
+.component__item-6-1 {
+   transform: rotate3d(0, 20, 0, 20deg);
+}
+.component__item-6-2 {
+   transform: rotate3d(50, 0, 0,30deg);
+}
+/* transfotm-styl */
+.component3d {
+   perspective: 200px;
+   /* transform-style: flat; */
+   transform-style: preserve-3d;
+}
+.component3d__item-6-3 {
+   transform: rotateY(30deg);
+}
+/* карточка с переворортом */
+.flip {
+   display: inline-block;
+}
+.flip__body {
+   width: 200px;
+   height: 200px;
+   position: relative;
+   perspective: 400px;
+   color: #ffffff;
+   font-size: 30px;
+}
+.flip__front,
+.flip__back {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   left: 0;
+   top: 0;
+   transition: all 0.3s;
+}
+.flip__front {
+   background-color: #8a3a8a;
+   transform: rotateY(0deg);
+   backface-visibility: hidden;
+}
+.flip__back {
+   background-color: #86b32e;
+   transform: rotateY(-180deg);
+}
+.flip__body:hover .flip__back {
+   transform: rotateY(0deg);
+}
+.flip__body:hover .flip__front {
+   transform: rotateY(180deg);
+}
+/* ======= МАШИНКА ======= */
+.chapter {
+   max-width: 100%;
+   height: 880px;
+   background: url("../img/road1.webp") center no-repeat;
+   background-size: 100%;
+   position: relative;
+}
+.car {
+   max-width: 500px;
+   height: 310px;
+   position: relative;
+   top: 500px;
+   left: 50px;
+}
+.top {
+   position: relative;
+}
+/* верх */
+.top__car  {
+   max-width: 260px;
+   height: 85px;
+   background-color: #F86F03;
+   border-radius: 80px 90px 0 0;
+   position: absolute;
+   top: 110px;
+   left: 90px;
+   width: 100%;
+   border: 4px solid #bfc276;
+}
+/* окнo */
+.top__car::before {
+   content: "";
+   position: absolute;
+   width: 110px;
+   height: 62px;
+   background-color: #e7ebeb;
+   border-radius: 70px 0 0 0;
+   top: 10px;
+   left: 10px;
+   border: 4px solid #bfc276;
+   z-index: 1;
+}
+/* окнo */
+.top__car::after {
+   content: "";
+   position: absolute;
+   width: 100px;
+   height: 62px;
+   background-color: #e7ebeb;
+   border-radius:  0 70px 0 0;
+   top: 10px;
+   left: 140px;
+   border: 4px solid #bfc276;
+   z-index: 1;
+}
+/* низ */
+.car__bottom {
+   max-width: 350px;
+   height: 90px;
+   background-color: #F86F03;
+   border-radius: 0 90px 10px 10px;
+   position: absolute;
+   top: 180px;
+   left: 90px;
+   width: 100%;
+   border: 4px solid #bfc276;
+   border-top: none;
+   position: relative;
+}
+/* перегородка-дверь */
+.partition {
+   position: absolute;
+   width: 4px;
+   height: 146px;
+   background-color: #bfc276;
+   left: 232px;
+   top: 124px;
+   z-index: 2;
+}
+/* ручка */
+.car__handle {
+   position: absolute;
+   width: 40px;
+   height: 10px;
+   left: 240px;
+   top: 200px;
+   z-index: 2;
+   background-color: #bfc276;
+   border-radius: 50% 50% 0 0;
+}
+/* фары */
+.car__bottom::before {
+   content: "";
+   position: absolute;
+   width: 20px;
+   height: 45px;
+   background-color: #ffffff;
+   top: 40px;
+   left: 330px;
+   border-radius: 0 50px 50px 0;
+   z-index: 3;
+   border-left: 9px solid #bdb76b;
+}
+.car__bottom::after {
+   content: "";
+   position: absolute;
+   width: 12px;
+   height: 30px;
+   background-color: #ff0000;
+   top: 50px;
+   left: -8px;
+   border-radius: 50px 50px 50px 50px;
+}
+/* колесо */
+.wheel::after,
+.wheel::before {
+   content: "";
+   position: absolute;
+   width: 90px;
+   height: 90px;
+   background-color: #bdb76b;
+   border: 20px solid #333232;
+   border-radius: 50%;
+   outline: 4px dashed #3a3a3a;
+}
+.wheel::after {
+   top: 220px;
+   left: 100px;
+}
+.wheel::before {
+   top: 220px;
+   right: 100px;
+}
+.light {
+   width: 0;
+   height: 0;
+   border-top: 30px solid transparent;
+   border-bottom: 30px solid transparent;
+   border-right: 400px solid #eef3f377;
+   position: absolute;
+   top: 210px;
+   left: 460px;
+   visibility: hidden;
+}
+.chapter:hover .light,
+.chapter:hover .light-red {
+   visibility: visible;
+}
+.light-red {
+   width: 20px;
+   height: 20px;
+   background-color: #ff000053;
+   top: 235px;
+   left: 70px;
+   position: absolute;
+   box-shadow: 2px 3px 10px #f30606;
+   border-radius: 50%;
+   visibility: hidden;
+}
+/* footer */
+.footer__imege {
+   padding-top: 100px;
+}
+.footer__imege img {
+   max-width: 150px;
+   border-radius: 50%;
+   padding: 30px;
+}
