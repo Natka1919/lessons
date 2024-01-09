@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style-form.css">
+   <link rel="shortcut icon" href="img/favicon-3/favicon.ico" type="image/x-icon">
+   <title>FORM-LESSON 16</title>
+
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header">header</header>
+      <main class="page">
+
+         <div class="page__container">
+            
+            <form class="form" enctype="multipart/form-data" method="GET" action="№">
+               <!-- name -->
+               <div class="form__line">
+                  <input class="form__input" tabindex="1" name="name" placeholder="введите имя" type="text">
+               </div>
+               <div class="form__line">
+                  <input class="form__input" tabindex="2" name="surname" placeholder="введите фамилию" type="text">
+               </div>
+               <div class="form__line">
+                  <input class="form__input" disabled tabindex="3" name="form[]" placeholder="введите имя" type="text">
+               </div>
+               <!-- label -->
+               <div class="form__line">
+                 <label class="label" for="name">Введите имя</label>
+                 <input id="name" class="form__input" tabindex="1" name="name" placeholder="введите имя" type="text">
+               </div>
+               <!-- email -->
+               <div class="form__line">
+                  <input class="form__input" tabindex="1" name="name" placeholder="введите e-mail" type="email">
+               </div>
+               <!-- age -->
+               <div class="form__line">
+                  <label class="label" for="age">Введите свой возраст</label>
+                  <input class="input" id="age" type="age" minlength="2" maxlength="3" placeholder="введите свой возраст">
+               </div>
+               <!-- спрятаное поле -->
+               <div class="form__line">
+                  <input value="dfg543jk" name="secret" type="hidden">
+               </div>
+               <!-- tel -->
+               <div class="form__line">
+                  <label class="label" for="phone">Введите свой телефон</label>
+                  <input class="input" id="phone" autocomplete="off" type="tel" name="phone" placeholder="введите свой телефон"> <span>Телефон в формате х-xxx-xxx:</span>
+               </div>
+               <!-- password -->
+               <div class="form__line">
+                  <label class="label" for="pass">Введите пароль</label>
+                  <input class="input" id="pass" autocomplete="off" type="password" name="pass">
+               </div>
+               <!-- numbe -->
+               <div class="form__line">
+                  <label class="label" for="digi">Введите свой возраст</label>
+                  <input class="input" id="digi" autocomplete="off" placeholder="Введите свой возраст" type="number">
+               </div>
+               <!--  -->
+               <div class="form__line">
+                  <label class="label" for="color">Выберите цвет</label>
+                  <input class="input" id="color" name="color" type="color">
+               </div>
+
+
+
+
+               <button type="submit">GO</button>
+            </form>
+         </div>
+      </main>
+      <footer class="footer">footer</footer>
+   </div>
+</body>
+
+</html>
